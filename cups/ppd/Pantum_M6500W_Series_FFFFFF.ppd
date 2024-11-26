@@ -1,0 +1,125 @@
+*PPD-Adobe: "4.3"
+*FormatVersion: "4.3"
+*FileVersion: "1.28.15"
+*LanguageVersion: English
+*LanguageEncoding: ISOLatin1
+*PSVersion: "(3010.000) 0"
+*LanguageLevel: "3"
+*FileSystem: False
+*PCFileName: "drvless.ppd"
+*Manufacturer: "Pantum-M6500W-Series"
+*ModelName: "Pantum-M6500W-Series Pantum-M6500W-Series"
+*Product: "(Pantum-M6500W-Series Pantum-M6500W-Series)"
+*NickName: "Pantum-M6500W-Series Pantum-M6500W-Series, driverless, cups-filters 1.28.15"
+*ShortNickName: "Pantum-M6500W-Series Pantum-M6500W-Series"
+*DefaultOutputOrder: Normal
+*ColorDevice: False
+*cupsVersion: 2.4
+*cupsSNMPSupplies: False
+*cupsLanguages: "en"
+*APSupplies: "http://Pantum-36B2BF.local:80/index-jump.html"
+*cupsFilter2: "image/urf image/urf 0 -"
+*cupsFilter2: "image/pwg-raster image/pwg-raster 10 -"
+*cupsManualCopies: True
+*OpenUI *PageSize/Media Size: PickOne
+*OrderDependency: 10 AnySetup *PageSize
+*DefaultPageSize: Letter
+*PageSize A4/A4: "<</PageSize[595.275590551181 841.889763779528]>>setpagedevice"
+*PageSize A5/A5: "<</PageSize[419.527559055118 595.275590551181]>>setpagedevice"
+*PageSize A6/A6: "<</PageSize[297.637795275591 419.527559055118]>>setpagedevice"
+*PageSize Env10/Envelope #10: "<</PageSize[296.985826771654 684]>>setpagedevice"
+*PageSize EnvC6/CEnvelope 6: "<</PageSize[323.149606299213 459.212598425197]>>setpagedevice"
+*PageSize EnvChou3/Envelope Chou 3: "<</PageSize[340.157480314961 666.141732283465]>>setpagedevice"
+*PageSize EnvDL/Envelope DL: "<</PageSize[311.811023622047 623.622047244094]>>setpagedevice"
+*PageSize Legal/US Legal: "<</PageSize[612 1008]>>setpagedevice"
+*PageSize Letter/US Letter: "<</PageSize[612 792]>>setpagedevice"
+*PageSize Postcard/Hagaki: "<</PageSize[283.464566929134 419.527559055118]>>setpagedevice"
+*CloseUI: *PageSize
+*OpenUI *PageRegion/Media Size: PickOne
+*OrderDependency: 10 AnySetup *PageRegion
+*DefaultPageRegion: Letter
+*PageRegion A4/A4: "<</PageSize[595.275590551181 841.889763779528]>>setpagedevice"
+*PageRegion A5/A5: "<</PageSize[419.527559055118 595.275590551181]>>setpagedevice"
+*PageRegion A6/A6: "<</PageSize[297.637795275591 419.527559055118]>>setpagedevice"
+*PageRegion Env10/Envelope #10: "<</PageSize[296.985826771654 684]>>setpagedevice"
+*PageRegion EnvC6/CEnvelope 6: "<</PageSize[323.149606299213 459.212598425197]>>setpagedevice"
+*PageRegion EnvChou3/Envelope Chou 3: "<</PageSize[340.157480314961 666.141732283465]>>setpagedevice"
+*PageRegion EnvDL/Envelope DL: "<</PageSize[311.811023622047 623.622047244094]>>setpagedevice"
+*PageRegion Legal/US Legal: "<</PageSize[612 1008]>>setpagedevice"
+*PageRegion Letter/US Letter: "<</PageSize[612 792]>>setpagedevice"
+*PageRegion Postcard/Hagaki: "<</PageSize[283.464566929134 419.527559055118]>>setpagedevice"
+*CloseUI: *PageRegion
+*DefaultImageableArea: Letter
+*DefaultPaperDimension: Letter
+*ImageableArea A4: "0 0 595.275590551181 841.889763779528"
+*PaperDimension A4: "595.275590551181 841.889763779528"
+*ImageableArea A5: "0 0 419.527559055118 595.275590551181"
+*PaperDimension A5: "419.527559055118 595.275590551181"
+*ImageableArea A6: "0 0 297.637795275591 419.527559055118"
+*PaperDimension A6: "297.637795275591 419.527559055118"
+*ImageableArea Env10: "0 0 296.985826771654 684"
+*PaperDimension Env10: "296.985826771654 684"
+*ImageableArea EnvC6: "0 0 323.149606299213 459.212598425197"
+*PaperDimension EnvC6: "323.149606299213 459.212598425197"
+*ImageableArea EnvChou3: "0 0 340.157480314961 666.141732283465"
+*PaperDimension EnvChou3: "340.157480314961 666.141732283465"
+*ImageableArea EnvDL: "0 0 311.811023622047 623.622047244094"
+*PaperDimension EnvDL: "311.811023622047 623.622047244094"
+*ImageableArea Legal: "0 0 612 1008"
+*PaperDimension Legal: "612 1008"
+*ImageableArea Letter: "0 0 612 792"
+*PaperDimension Letter: "612 792"
+*ImageableArea Postcard: "0 0 283.464566929134 419.527559055118"
+*PaperDimension Postcard: "283.464566929134 419.527559055118"
+*HWMargins: "0 0 0 0"
+*ParamCustomPageSize Width: 1 points 283.464566929134 419.527559055118
+*ParamCustomPageSize Height: 2 points 612.283464566929 1009.133858267717
+*ParamCustomPageSize WidthOffset: 3 points 0 0
+*ParamCustomPageSize HeightOffset: 4 points 0 0
+*ParamCustomPageSize Orientation: 5 int 0 3
+*CustomPageSize True: "pop pop pop <</PageSize[5 -2 roll]/ImagingBBox null>>setpagedevice"
+*OpenUI *InputSlot/Media Source: PickOne
+*OrderDependency: 10 AnySetup *InputSlot
+*DefaultInputSlot: Auto
+*InputSlot Auto/Automatic: "<</MediaPosition 0>>setpagedevice"
+*InputSlot Main/Main: "<</MediaPosition 1>>setpagedevice"
+*CloseUI: *InputSlot
+*OpenUI *MediaType/Media Type: PickOne
+*OrderDependency: 10 AnySetup *MediaType
+*DefaultMediaType: Stationery
+*MediaType Stationery/Stationery: "<</MediaType(Stationery)>>setpagedevice"
+*MediaType StationeryHeavyweight/Heavyweight Paper: "<</MediaType(StationeryHeavyweight)>>setpagedevice"
+*MediaType Envelope/Envelope: "<</MediaType(Envelope)>>setpagedevice"
+*MediaType Cardstock/Cardstock: "<</MediaType(Cardstock)>>setpagedevice"
+*MediaType Labels/Labels: "<</MediaType(Labels)>>setpagedevice"
+*MediaType Transparency/Transparency: "<</MediaType(Transparency)>>setpagedevice"
+*MediaType StationeryLightweight/Lightweight Paper: "<</MediaType(StationeryLightweight)>>setpagedevice"
+*CloseUI: *MediaType
+*% ColorModel from urf-supported
+*OpenUI *ColorModel/Print Color Mode: PickOne
+*OrderDependency: 10 AnySetup *ColorModel
+*ColorModel Gray/Monochrome: "<</cupsColorSpace 18/cupsBitsPerColor 8/cupsColorOrder 0/cupsCompression 0>>setpagedevice"
+*DefaultColorModel: Gray
+*CloseUI: *ColorModel
+*OpenUI *OutputBin/Output Tray: PickOne
+*OrderDependency: 10 AnySetup *OutputBin
+*DefaultOutputBin: Top
+*OutputBin Top/Top: ""
+*PageStackOrder Top: Normal
+*CloseUI: *OutputBin
+*DefaultResolution: 600dpi
+*OpenUI *cupsPrintQuality/Print Quality: PickOne
+*OrderDependency: 10 AnySetup *cupsPrintQuality
+*DefaultcupsPrintQuality: Normal
+*cupsPrintQuality Normal/Normal: "<</HWResolution[600 600]>>setpagedevice"
+*CloseUI: *cupsPrintQuality
+*OpenUI *print-scaling/Print Scaling: PickOne
+*OrderDependency: 10 AnySetup *print-scaling
+*Defaultprint-scaling: auto
+*print-scaling auto/Automatic: ""
+*print-scaling auto-fit/Auto-fit: ""
+*print-scaling fill/Fill: ""
+*print-scaling fit/Fit: ""
+*print-scaling none/None: ""
+*CloseUI: *print-scaling
+*cupsFilter2: "application/vnd.cups-pdf application/pdf 0 -"
